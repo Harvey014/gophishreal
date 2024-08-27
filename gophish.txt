@@ -1,3 +1,5 @@
+Create Gmail account and Turn on 2mfa
+*******************************************************************
 INSTALL GOPHISH TO CENTOS 8
 CHANGE NETWORK ADAPTER TO Bridge 
 MAKE SURE THE BRIDGE IS SET TO WIFI not AUTOMATIC
