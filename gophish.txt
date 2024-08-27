@@ -1,4 +1,7 @@
 INSTALL GOPHISH TO CENTOS 8
+CHANGE NETWORK ADAPTER TO Bridge 
+MAKE SURE THE BRIDGE IS SET TO WIFI not AUTOMATIC
+*******************************************************************
 
 sudo dnf update -y
 
@@ -20,13 +23,13 @@ CHANGE THE IP ADD SAME TO CENTOS
 nano config.json
 
 "admin_server": {
-    "listen_url": "192.168.108.0:3333",
+    "listen_url": "192.168.1.0:3333",
     "use_tls": true,
     "cert_path": "gophish_admin.crt",
     "key_path": "gophish_admin.key"
 },
 "phish_server": {
-    "listen_url": "192.168.108.0:80",
+    "listen_url": "192.168.1.0:80",
     "use_tls": false,
     "cert_path": "example.crt",
     "key_path": "example.key"
