@@ -89,7 +89,7 @@ Use TLS: Check
 
 # CREATE SENDING PROFILES
 
-Name: Instagram
+Name: SMTP
 
 Interface Type: SMTP
 
