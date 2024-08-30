@@ -4,6 +4,7 @@ INSTALL GOPHISH TO CENTOS 8
 CHANGE NETWORK ADAPTER TO Bridge 
 MAKE SURE THE BRIDGE IS SET TO WIFI not AUTOMATIC
 *******************************************************************
+Secure CRT the IP ADDRESS
 
 sudo dnf update -y
 
