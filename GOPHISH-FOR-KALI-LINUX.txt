@@ -79,7 +79,7 @@ IMAP Host: imap.gmail.com
 
 IMAP Port: 993
 
-IMAP Username: andradite101014@gmail.com
+IMAP Username: YOUR GMAIL ACCOUNT
 
 IMAP Password: USE THE APP PASSWORD OF GMAIL (GOOGLE)
 
@@ -93,11 +93,11 @@ Name: Instagram
 
 Interface Type: SMTP
 
-SMTP From: andradite101014@gmail.com
+SMTP From: YOUR GMAIL ACCOUNT
 
 Host: smtp.gmail.com:587
 
-Username: andradite101014@gmail.com
+Username: YOUR GMAIL ACCOUNT
 
 Password: USE THE APP PASSWORD OF GMAIL (GOOGLE)
 
@@ -217,7 +217,7 @@ https://instagram.com
 EMAIL TEMPLATES
 
 # Name: Email 1
-# Envelope Sender: andradite101014@gmail.com
+# Envelope Sender: YOUR GMAIL ACCOUNT
 # Subject: Instagram Security Alert
 
 HTML:
