@@ -15,7 +15,7 @@ DOWNLOAD THE LATEST GOPHISH
 TRANSFER THE GOPHISH USING WINSCP
 
 
-unzip gophish-v0.12.2-linux-64bit.zip
+unzip gophish-v0.12.1-linux-64bit.zip
 chmod +x gophish
 
 
